@@ -19,7 +19,7 @@ public class PlayerAnimator : MonoBehaviour
 
         bool isMoving = movement.sqrMagnitude > 0.1f;
 
-        animator.SetBool("IsMoving", isMoving);
+        animator.SetBool("isMoving", isMoving);
         if (isMoving)
         {
             animator.SetFloat("Horizontal", movement.x);
